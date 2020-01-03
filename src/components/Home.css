@@ -1,0 +1,99 @@
+#wrapper {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#home-template {
+    margin: 3rem 6em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-self: stretch;
+    padding: 2em;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 2em;
+    flex: 1;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btns div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#btns div button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    margin: 3em 0;
+}
+
+#graphs {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+    align-self: stretch;
+    margin: 0;
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: left;
+    flex: 2;
+    align-self: stretch;
+}
+#newColor {
+    background-color: red;
+    flex: 1;
+    align-self: stretch;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    margin: 2em 0;
+}
+#changeColor {
+    background-color: rgba(0, 0, 0, 0.4);
+    flex: 1;
+    align-self: stretch;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    margin: 2em 0;
+}
+#one .inner-one {
+    margin: 2em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-around;
+    flex: 1;
+}
+
+#one .inner-one #one-first-box {
+    flex: 3;
+    align-self: stretch;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+#one .inner-one #one-second-box {
+    flex: 1;
+    align-self: stretch;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    margin: 2em 0;
+}
+
+#two {
+    flex: 1;
+}
